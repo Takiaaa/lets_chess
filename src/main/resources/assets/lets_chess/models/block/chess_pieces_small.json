@@ -1,0 +1,81 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#color"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 6, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 14, 8], "texture": "#color"},
+				"east": {"uv": [2, 2, 14, 8], "texture": "#color"},
+				"south": {"uv": [2, 2, 14, 8], "texture": "#color"},
+				"west": {"uv": [2, 2, 14, 8], "texture": "#color"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#color"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#color"}
+			}
+		},
+		{
+			"from": [14.5, 6.52, 14.5],
+			"to": [1.5, 0.02, 1.5],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [1, 1, 2, 2], "texture": "#color2"},
+				"east": {"uv": [1, 1, 2, 2], "texture": "#color2"},
+				"south": {"uv": [1, 1, 2, 2], "texture": "#color2"},
+				"west": {"uv": [1, 1, 2, 2], "texture": "#color2"},
+				"up": {"uv": [1, 1, 2, 2], "texture": "#color2"},
+				"down": {"uv": [1, 1, 2, 2], "texture": "#color2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [77.5, 20, 0],
+			"translation": [0, 2.5, 1],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [77.5, 20, 0],
+			"translation": [0, 2.5, 1],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [25.96, 19.24, 8.6],
+			"translation": [0, 1.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [25.96, 19.24, 8.6],
+			"translation": [0, 1.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [45, 20, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"rotation": [90, 0, -180],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [1, 1, 1],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

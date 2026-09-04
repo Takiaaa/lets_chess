@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lets_chess:block/xiangqi_red_advisor",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "lets_chess:block/xiangqi_red_advisor",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "lets_chess:block/xiangqi_red_advisor"
+    },
+    "facing=west": {
+      "model": "lets_chess:block/xiangqi_red_advisor",
+      "y": 90
+    }
+  }
+}

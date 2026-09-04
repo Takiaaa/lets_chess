@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "lets_chess:pieces_black",
+    "lets_chess:pieces_white"
+  ]
+}

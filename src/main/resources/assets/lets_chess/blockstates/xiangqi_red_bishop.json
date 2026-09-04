@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lets_chess:block/xiangqi_red_bishop",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "lets_chess:block/xiangqi_red_bishop",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "lets_chess:block/xiangqi_red_bishop"
+    },
+    "facing=west": {
+      "model": "lets_chess:block/xiangqi_red_bishop",
+      "y": 90
+    }
+  }
+}

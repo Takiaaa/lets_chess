@@ -1,0 +1,35 @@
+{
+  "parent": "lets_chess:root",
+  "criteria": {
+    "has_any_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:chessboard_table"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancement.lets_chess.get_table"
+    },
+    "description": {
+      "translate": "advancement.lets_chess.get_table.desc"
+    },
+    "icon": {
+      "id": "lets_chess:chessboard_table_baduk",
+      "count": 1
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_any_table"
+    ]
+  ]
+}

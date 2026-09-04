@@ -1,0 +1,76 @@
+{
+  "itemGroup.lets_chess_tab": "Let's Chess!",
+
+  "block.lets_chess.flightchess_blue": "Blue Flight Chess",
+  "block.lets_chess.flightchess_green": "Green Flight Chess",
+  "block.lets_chess.flightchess_red": "Red Flight Chess",
+  "block.lets_chess.flightchess_yellow": "Yellow Flight Chess",
+
+  "block.lets_chess.xiangqi_red_general": "Red Xiangqi General",
+  "block.lets_chess.xiangqi_red_advisor": "Red Xiangqi Advisor",
+  "block.lets_chess.xiangqi_red_bishop": "Red Xiangqi Bishop",
+  "block.lets_chess.xiangqi_red_horse": "Red Xiangqi Horse",
+  "block.lets_chess.xiangqi_red_chariot": "Red Xiangqi Chariot",
+  "block.lets_chess.xiangqi_red_cannon": "Red Xiangqi Cannon",
+  "block.lets_chess.xiangqi_red_soldier": "Red Xiangqi Soldier",
+  "block.lets_chess.xiangqi_black_general": "Black Xiangqi General",
+  "block.lets_chess.xiangqi_black_advisor": "Black Xiangqi Advisor",
+  "block.lets_chess.xiangqi_black_bishop": "Black Xiangqi Bishop",
+  "block.lets_chess.xiangqi_black_horse": "Black Xiangqi Horse",
+  "block.lets_chess.xiangqi_black_chariot": "Black Xiangqi Chariot",
+  "block.lets_chess.xiangqi_black_cannon": "Black Xiangqi Cannon",
+  "block.lets_chess.xiangqi_black_soldier": "Black Xiangqi Soldier",
+
+  "block.lets_chess.dice_white": "White Dice",
+  "block.lets_chess.dice_black": "Black Dice",
+
+  "block.lets_chess.pieces_white": "White Pieces",
+  "block.lets_chess.pieces_black": "Black Pieces",
+
+  "block.lets_chess.chessboard_table_xiangqi": "Xiangqi Chessboard Table",
+  "block.lets_chess.chessboard_table_baduk": "Baduk Chessboard Table",
+  "block.lets_chess.chessboard_table_flightchess": "Flight Chess Chessboard Table",
+
+  "block.lets_chess.chess_white_king": "White King",
+  "block.lets_chess.chess_white_queen": "White Queen",
+  "block.lets_chess.chess_white_rook": "White Rook",
+  "block.lets_chess.chess_white_bishop": "White Bishop",
+  "block.lets_chess.chess_white_knight": "White Knight",
+  "block.lets_chess.chess_white_pawn": "White Pawn",
+
+  "block.lets_chess.chess_black_king": "Black King",
+  "block.lets_chess.chess_black_queen": "Black Queen",
+  "block.lets_chess.chess_black_rook": "Black Rook",
+  "block.lets_chess.chess_black_bishop": "Black Bishop",
+  "block.lets_chess.chess_black_knight": "Black Knight",
+  "block.lets_chess.chess_black_pawn": "Black Pawn",
+  
+  "entity.lets_chess.chessboard_entity": "Chessboard Entity",
+
+  "tooltip.lets_chess.chessboard_table_xiangqi": "Generates §3Xiangqi Chessboard Grid §7on Placement",
+  "tooltip.lets_chess.chessboard_table_baduk": "Generates §3Baduk Chessboard Grid §7on Placement",
+  "tooltip.lets_chess.chessboard_table_flightchess": "Generates §3Flight Chess Chessboard Grid §7on Placement",
+  "tooltip.lets_chess.dice": "§3Random Number on Placement",
+  "tooltip.lets_chess.xiangqi": "§7Chinese Chess Piece",
+  "tooltip.lets_chess.flightchess": "§7Flight Chess Piece",
+  "tooltip.lets_chess.baduk": "§7Baduk Piece",
+  "tooltip.lets_chess.chess": "§7Chess Piece",
+  "tooltip.lets_chess.pickup_hint": "§eSneak + Empty Hand Right-Click§f to Pick Up",
+
+  "advancement.lets_chess.root": "Let's Play Chess!",
+  "advancement.lets_chess.root.desc": "Craft pieces and chessboards, and play with your friends!",
+  "advancement.lets_chess.get_table": "On the Chessboard",
+  "advancement.lets_chess.get_table.desc": "Obtain any chessboard table. Place it to claim your territory.",
+  "advancement.lets_chess.get_piece": "Make Your Move",
+  "advancement.lets_chess.get_piece.desc": "Obtain any chess piece.\nTake your first step! Sneak + empty hand right-click to pick up pieces.",
+  "advancement.lets_chess.get_dice": "Rolling in Luck",
+  "advancement.lets_chess.get_dice.desc": "Obtain dice.\nHope for the best - may luck be on your side!",
+
+  "lets_chess.configuration.title": "Let's chess! Configs",
+  "lets_chess.configuration.section.lets_chess.common.toml": "Let's chess! Configs",
+  "lets_chess.configuration.section.lets_chess.common.toml.title": "Let's chess! Configs",
+  "lets_chess.configuration.items": "Item List",
+  "lets_chess.configuration.logDirtBlock": "Log Dirt Block",
+  "lets_chess.configuration.magicNumberIntroduction": "Magic Number Text",
+  "lets_chess.configuration.magicNumber": "Magic Number"
+}

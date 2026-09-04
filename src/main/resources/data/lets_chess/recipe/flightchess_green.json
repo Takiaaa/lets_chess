@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "WWW"
+  ],
+  "key": {
+    "D": {"item": "minecraft:green_dye"},
+    "W": {"item": "minecraft:white_concrete"}
+  },
+  "result": {
+    "id": "lets_chess:flightchess_green",
+    "count": 4
+  }
+}

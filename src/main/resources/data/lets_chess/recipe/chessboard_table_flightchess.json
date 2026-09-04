@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "misc", "pattern": [" R ", "YXB", " G "], "key": {"X": {"item": "lets_chess:chessboard_table_xiangqi"}, "R": {"item": "minecraft:red_dye"}, "Y": {"item": "minecraft:yellow_dye"}, "B": {"item": "minecraft:blue_dye"}, "G": {"item": "minecraft:green_dye"}}, "result": {"id": "lets_chess:chessboard_table_flightchess"}}

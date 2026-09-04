@@ -1,0 +1,1 @@
+{"parent": "lets_chess:item/chessboard_table_xiangqi", "textures": {"particle": "#table", "table": "lets_chess:block/chessboard_table_flightchess", "grid": "lets_chess:block/chessboard_flightchess_small"}}

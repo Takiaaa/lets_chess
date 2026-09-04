@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "B": {"item": "minecraft:white_concrete"},
+    "D": {"item": "minecraft:black_dye"}
+  },
+  "result": {
+    "id": "lets_chess:dice_white"
+  }
+}

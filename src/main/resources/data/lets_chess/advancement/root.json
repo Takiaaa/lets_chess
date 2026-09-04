@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "auto_unlock": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancement.lets_chess.root.desc"
+    },
+    "icon": {
+      "id": "lets_chess:chess_white_king",
+      "count": 1
+    },
+    "show_toast": false,
+    "frame": "task",
+    "title": {
+      "translate": "advancement.lets_chess.root"
+    }
+  },
+  "requirements": [
+    [
+      "auto_unlock"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

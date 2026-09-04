@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DDD",
+    "QQQ"
+  ],
+  "key": {
+    "D": {"item": "minecraft:white_dye"},
+    "Q": {"item": "minecraft:quartz_block"}
+  },
+  "result": {
+    "id": "lets_chess:pieces_white",
+    "count": 4
+  }
+}

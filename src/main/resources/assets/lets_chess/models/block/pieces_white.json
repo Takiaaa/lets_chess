@@ -1,0 +1,7 @@
+{
+  "parent": "lets_chess:block/chess_pieces_small",
+  "textures": {
+		"color": "minecraft:block/quartz_block_top",
+		"color2": "minecraft:block/gray_concrete"
+  }
+}

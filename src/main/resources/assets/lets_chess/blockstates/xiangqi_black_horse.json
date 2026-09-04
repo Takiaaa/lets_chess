@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lets_chess:block/xiangqi_black_horse",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "lets_chess:block/xiangqi_black_horse",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "lets_chess:block/xiangqi_black_horse"
+    },
+    "facing=west": {
+      "model": "lets_chess:block/xiangqi_black_horse",
+      "y": 90
+    }
+  }
+}

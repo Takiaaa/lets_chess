@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+  "lets_chess:xiangqi_red_general",
+  "lets_chess:xiangqi_red_advisor",
+  "lets_chess:xiangqi_red_bishop",
+  "lets_chess:xiangqi_red_horse",
+  "lets_chess:xiangqi_red_chariot",
+  "lets_chess:xiangqi_red_cannon",
+  "lets_chess:xiangqi_red_soldier",
+  "lets_chess:xiangqi_black_general",
+  "lets_chess:xiangqi_black_advisor",
+  "lets_chess:xiangqi_black_bishop",
+  "lets_chess:xiangqi_black_horse",
+  "lets_chess:xiangqi_black_chariot",
+  "lets_chess:xiangqi_black_cannon",
+  "lets_chess:xiangqi_black_soldier"
+  ]
+}

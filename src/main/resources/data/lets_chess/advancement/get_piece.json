@@ -1,0 +1,68 @@
+{
+  "parent": "lets_chess:root",
+  "criteria": {
+    "has_xiangqi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:xiangqi"
+          }
+        ]
+      }
+    },
+    "has_chess": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:chess"
+          }
+        ]
+      }
+    },
+    "has_baduk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:baduk"
+          }
+        ]
+      }
+    },
+    "has_flightchess": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:flightchess"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancement.lets_chess.get_piece"
+    },
+    "description": {
+      "translate": "advancement.lets_chess.get_piece.desc"
+    },
+    "icon": {
+      "id": "lets_chess:xiangqi_red_general",
+      "count": 1
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_xiangqi",
+      "has_chess",
+      "has_baduk",
+      "has_flightchess"
+    ]
+  ]
+}

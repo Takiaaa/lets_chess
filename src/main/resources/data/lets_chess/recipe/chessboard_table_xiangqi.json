@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "category": "misc", "pattern": ["TT", "PP", "PP"], "key": {"T": {"tag": "minecraft:wooden_trapdoors"}, "P": {"tag": "minecraft:planks"}}, "result": {"id": "lets_chess:chessboard_table_xiangqi"}}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lets_chess:flightchess_blue",
+    "lets_chess:flightchess_red",
+    "lets_chess:flightchess_yellow",
+    "lets_chess:flightchess_green"
+  ]
+}

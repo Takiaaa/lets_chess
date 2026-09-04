@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lets_chess:chessboard_table_xiangqi",
+    "lets_chess:chessboard_table_flightchess",
+    "lets_chess:chessboard_table_baduk"
+  ]
+}

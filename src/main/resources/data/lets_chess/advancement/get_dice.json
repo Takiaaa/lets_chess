@@ -1,0 +1,35 @@
+{
+  "parent": "lets_chess:root",
+  "criteria": {
+    "has_any_dice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:dice"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancement.lets_chess.get_dice"
+    },
+    "description": {
+      "translate": "advancement.lets_chess.get_dice.desc"
+    },
+    "icon": {
+      "id": "lets_chess:dice_white",
+      "count": 1
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_any_dice"
+    ]
+  ]
+}

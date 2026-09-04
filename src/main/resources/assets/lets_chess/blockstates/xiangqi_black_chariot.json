@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "lets_chess:block/xiangqi_black_chariot",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "lets_chess:block/xiangqi_black_chariot",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "lets_chess:block/xiangqi_black_chariot"
+    },
+    "facing=west": {
+      "model": "lets_chess:block/xiangqi_black_chariot",
+      "y": 90
+    }
+  }
+}

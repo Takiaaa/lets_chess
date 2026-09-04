@@ -1,0 +1,6 @@
+{
+  "parent": "lets_chess:block/chess_pieces",
+  "textures": {
+    "color": "lets_chess:block/xiangqi_black_advisor"
+  }
+}
