@@ -10,6 +10,8 @@
   "advancement.lets_chess.get_dice": "好运连连",
   "advancement.lets_chess.get_dice.desc": "获得一枚骰子。\n放置骰子，期待点数，幸运女神会眷顾你的。",
 
+  "item.lets_chess.logo_icon": "图标",
+
   "block.lets_chess.flightchess_blue": "蓝色飞行棋",
   "block.lets_chess.flightchess_green": "绿色飞行棋",
   "block.lets_chess.flightchess_red": "红色飞行棋",

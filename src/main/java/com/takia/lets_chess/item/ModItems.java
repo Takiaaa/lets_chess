@@ -10,6 +10,9 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS =
             DeferredRegister.createItems(Letschess.MODID);
 
+    public static final DeferredItem<Item> LOGO_ICON =
+            ITEMS.register("logo_icon", () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

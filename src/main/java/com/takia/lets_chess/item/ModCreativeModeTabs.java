@@ -17,7 +17,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> LETS_CHESS_TAB =
             CREATIVE_MODE_TABS.register("lets_chess_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModBlocks.FLIGHTCHESS_BLUE.get()))
+                    .icon(() -> new ItemStack(ModItems.LOGO_ICON.get()))
                     .title(Component.translatable("itemGroup.lets_chess_tab"))
                     .displayItems((parameters, output) -> {
                         // 飞行棋
@@ -25,6 +25,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.FLIGHTCHESS_RED);
                         output.accept(ModBlocks.FLIGHTCHESS_YELLOW);
                         output.accept(ModBlocks.FLIGHTCHESS_GREEN);
+                        // 骰子
+                        output.accept(ModBlocks.DICE_WHITE);
+                        output.accept(ModBlocks.DICE_BLACK);
                         // 红色象棋
                         output.accept(ModBlocks.XIANGQI_RED_GENERAL);
                         output.accept(ModBlocks.XIANGQI_RED_ADVISOR);
@@ -41,9 +44,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.XIANGQI_BLACK_CHARIOT);
                         output.accept(ModBlocks.XIANGQI_BLACK_CANNON);
                         output.accept(ModBlocks.XIANGQI_BLACK_SOLDIER);
-                        // 骰子
-                        output.accept(ModBlocks.DICE_WHITE);
-                        output.accept(ModBlocks.DICE_BLACK);
                         // 围棋棋子
                         output.accept(ModBlocks.PIECES_WHITE);
                         output.accept(ModBlocks.PIECES_BLACK);
@@ -61,7 +61,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CHESS_BLACK_KNIGHT);
                         output.accept(ModBlocks.CHESS_BLACK_ROOK);
                         output.accept(ModBlocks.CHESS_BLACK_PAWN);
-
                         // 棋盘台
                         output.accept(ModBlocks.CHESSBOARD_TABLE_XIANGQI);
                         output.accept(ModBlocks.CHESSBOARD_TABLE_BADUK);

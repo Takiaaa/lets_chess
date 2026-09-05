@@ -6,6 +6,8 @@
   "block.lets_chess.flightchess_red": "Red Flight Chess",
   "block.lets_chess.flightchess_yellow": "Yellow Flight Chess",
 
+  "item.lets_chess.logo_icon": "Logo",
+
   "block.lets_chess.xiangqi_red_general": "Red Xiangqi General",
   "block.lets_chess.xiangqi_red_advisor": "Red Xiangqi Advisor",
   "block.lets_chess.xiangqi_red_bishop": "Red Xiangqi Bishop",
