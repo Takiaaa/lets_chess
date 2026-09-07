@@ -1,42 +1,53 @@
 # 🎮 Let's Chess! (咱们下棋吧！)
 
-为 Minecraft 添加多种经典棋类游戏的棋子、骰子和棋盘台。
+为 Minecraft 添加多种经典棋类游戏的棋子、骰子、棋盘台和小棋盘。
 
 ---
 
 ## 📖 模组介绍
 
 ### ♟️ 棋子
-- **国际象棋**：白方/黑方完整棋子套装（国王、皇后、主教、骑士、城堡、士兵）
-- **中国象棋**：红方/黑方完整棋子套装（帅/将、仕/士、相/象、马、车、炮/砲、兵/卒）
+- **国际象棋**：白方/黑方完整棋子套装
+- **中国象棋**：红方/黑方完整棋子套装
 - **飞行棋**：蓝、红、黄、绿四色棋子
-- **围棋**：白色棋子、黑色棋子，也可以用作五子棋和井字棋
+- **围棋**：黑白棋子，也可用于五子棋和井字棋
+- 棋子可戴在头上，戴棋子时可查看小棋盘的工作区域线框
 
 ### 🎲 骰子
-- 白色骰子和黑色骰子，放置时随机显示 1-6 点数
+- 白色/黑色骰子，放置时随机显示 1-6 点数
 
 ### 🎯 棋盘台
-- **象棋棋盘台**：放置后生成中国象棋棋盘网格
-- **围棋棋盘台**：放置后生成围棋棋盘网格
-- **飞行棋棋盘台**：放置后生成飞行棋棋盘网格
+- **象棋 / 围棋 / 飞行棋棋盘台**
+- 放置后自动生成对应棋盘网格
+
+### 🏁 小棋盘
+- **国际象棋小棋盘** / **中国象棋小棋盘** / **飞行棋小棋盘**
+- 支持一键摆放与回收棋子，头戴棋子显示工作区域线框
 
 ---
 
 ## 🌍 Mod Introduction
 
 ### ♟️ Chess Pieces
-- **Chess**: Complete white and black piece sets (King, Queen, Bishop, Knight, Rook, Pawn)
-- **Xiangqi (Chinese Chess)**: Complete red and black piece sets (General, Advisor, Bishop, Horse, Chariot, Cannon, Soldier)
-- **Flight Chess (Ludo)**: Blue, Red, Yellow, and Green pieces
-- **Baduk (Go)**: White stones and Black stones
+- **Chess / Xiangqi / Flight Chess / Baduk (Go)**: Complete piece sets for each game
+- Pieces can be worn on the head to reveal mini chessboard work area outlines
 
 ### 🎲 Dice
-- White dice and Black dice, randomly displaying numbers 1-6 when placed
+- White/Black dice, randomly displaying 1-6 when placed
 
 ### 🎯 Chessboard Tables
-- **Xiangqi Chessboard Table**: Generates a Chinese chessboard grid when placed
-- **Baduk Chessboard Table**: Generates a Go board grid when placed
-- **Flight Chess Chessboard Table**: Generates a flight chess board grid when placed
+- **Xiangqi / Baduk / Flight Chess**:
+- Auto-generates board grid when placed
+
+### 🏁 Mini Chessboards
+- **Chess / Xiangqi / Flight Chess Mini Chessboard**
+- One-click arrange & take back, work area outline visible when wearing a piece
+
+---
+
+## 🌐 多语言支持 / Multilingual Support
+
+简体中文 · 繁體中文（台灣/香港） · English · Français · Español · العربية · Русский
 
 ---
 
