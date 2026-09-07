@@ -36,7 +36,7 @@
 - White/Black dice, randomly displaying 1-6 when placed
 
 ### 🎯 Chessboard Tables
-- **Xiangqi / Baduk / Flight Chess**:
+- **Xiangqi / Baduk / Flight Chess**Chessboard Tables
 - Auto-generates board grid when placed
 
 ### 🏁 Mini Chessboards
