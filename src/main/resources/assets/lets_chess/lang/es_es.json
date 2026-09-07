@@ -1,0 +1,94 @@
+{
+  "itemGroup.lets_chess_tab": "\u00a1Juguemos al Ajedrez!",
+
+  "advancement.lets_chess.root": "\u00a1Juguemos al Ajedrez!",
+  "advancement.lets_chess.root.desc": "\u00a1Fabrica piezas y tableros, y juega con tus amigos!",
+  "advancement.lets_chess.get_table": "En el Tablero",
+  "advancement.lets_chess.get_table.desc": "Obt\u00e9n una mesa de tablero.\nCol\u00f3cala para reclamar tu territorio.",
+  "advancement.lets_chess.get_piece": "Jugada Decisiva",
+  "advancement.lets_chess.get_piece.desc": "Obt\u00e9n una pieza de ajedrez.\n\u00a1Da tu primer paso! Agacharse + clic derecho con mano vac\u00eda para recoger.",
+  "advancement.lets_chess.get_dice": "Suerte en Juego",
+  "advancement.lets_chess.get_dice.desc": "Obt\u00e9n un dado.\n\u00a1Espera lo mejor, la suerte te sonreir\u00e1!",
+  "advancement.lets_chess.get_mini_chessboard": "Bendici\u00f3n del Perezoso",
+  "advancement.lets_chess.get_mini_chessboard.desc": "Obt\u00e9n un mini tablero.\n\u00a1Ya eres un tablero maduro, aprende a colocar piezas t\u00fa mismo!",
+
+  "item.lets_chess.logo_icon": "Icono",
+
+  "block.lets_chess.flightchess_blue": "Ficha Azul",
+  "block.lets_chess.flightchess_green": "Ficha Verde",
+  "block.lets_chess.flightchess_red": "Ficha Roja",
+  "block.lets_chess.flightchess_yellow": "Ficha Amarilla",
+
+  "block.lets_chess.xiangqi_red_general": "General Rojo",
+  "block.lets_chess.xiangqi_red_advisor": "Consejero Rojo",
+  "block.lets_chess.xiangqi_red_bishop": "Elefante Rojo",
+  "block.lets_chess.xiangqi_red_horse": "Caballo Rojo",
+  "block.lets_chess.xiangqi_red_chariot": "Carro Rojo",
+  "block.lets_chess.xiangqi_red_cannon": "Ca\u00f1\u00f3n Rojo",
+  "block.lets_chess.xiangqi_red_soldier": "Soldado Rojo",
+  "block.lets_chess.xiangqi_black_general": "General Negro",
+  "block.lets_chess.xiangqi_black_advisor": "Consejero Negro",
+  "block.lets_chess.xiangqi_black_bishop": "Elefante Negro",
+  "block.lets_chess.xiangqi_black_horse": "Caballo Negro",
+  "block.lets_chess.xiangqi_black_chariot": "Carro Negro",
+  "block.lets_chess.xiangqi_black_cannon": "Ca\u00f1\u00f3n Negro",
+  "block.lets_chess.xiangqi_black_soldier": "Soldado Negro",
+
+  "block.lets_chess.dice_white": "Dado Blanco",
+  "block.lets_chess.dice_black": "Dado Negro",
+
+  "block.lets_chess.pieces_white": "Piezas Blancas",
+  "block.lets_chess.pieces_black": "Piezas Negras",
+
+  "block.lets_chess.chess_white_king": "Rey Blanco",
+  "block.lets_chess.chess_white_queen": "Reina Blanca",
+  "block.lets_chess.chess_white_bishop": "Alfil Blanco",
+  "block.lets_chess.chess_white_knight": "Caballo Blanco",
+  "block.lets_chess.chess_white_rook": "Torre Blanca",
+  "block.lets_chess.chess_white_pawn": "Pe\u00f3n Blanco",
+  "block.lets_chess.chess_black_king": "Rey Negro",
+  "block.lets_chess.chess_black_queen": "Reina Negra",
+  "block.lets_chess.chess_black_bishop": "Alfil Negro",
+  "block.lets_chess.chess_black_knight": "Caballo Negro",
+  "block.lets_chess.chess_black_rook": "Torre Negra",
+  "block.lets_chess.chess_black_pawn": "Pe\u00f3n Negro",
+
+  "block.lets_chess.chessboard_table_xiangqi": "Mesa Xiangqi",
+  "block.lets_chess.chessboard_table_baduk": "Mesa Baduk",
+  "block.lets_chess.chessboard_table_flightchess": "Mesa Juego de Parch\u00eds",
+
+  "block.lets_chess.mini_chessboard_xiangqi": "Mini Tablero Xiangqi",
+  "block.lets_chess.mini_chessboard_chess": "Mini Tablero de Ajedrez",
+  "block.lets_chess.mini_chessboard_flightchess": "Mini Tablero Juego de Parch\u00eds",
+
+  "container.lets_chess.mini_chessboard_chess.gui_title": "Ajedrez",
+  "container.lets_chess.mini_chessboard_xiangqi.gui_title": "Xiangqi",
+  "container.lets_chess.mini_chessboard_flightchess.gui_title": "Juego de Parch\u00eds",
+
+  "container.lets_chess.mini_chessboard.take_back": "Recoger Piezas",
+  "container.lets_chess.mini_chessboard.arrange": "Colocar Piezas",
+
+  "message.lets_chess.arrange_failed_obstacle": "\u00a7cFallo: la zona debe estar vac\u00eda",
+  "message.lets_chess.arrange_failed_insufficient": "\u00a7cFallo: no hay suficientes piezas en el inventario",
+  "message.lets_chess.arrange_success": "\u00a7a\u00c9xito: piezas colocadas en apertura est\u00e1ndar",
+  "message.lets_chess.takeback_success": "\u00a7a\u00c9xito: todas las piezas devueltas al inventario",
+  "message.lets_chess.takeback_success_partial": "\u00a7a\u00c9xito: piezas devueltas al inventario o ca\u00eddas al suelo",
+
+  "entity.lets_chess.chessboard_entity": "Tablero",
+
+  "tooltip.lets_chess.baduk": "\u00a77Pieza de Baduk",
+  "tooltip.lets_chess.chess": "\u00a77Pieza de Ajedrez",
+  "tooltip.lets_chess.flightchess": "\u00a77Pieza de Juego de Parch\u00eds",
+  "tooltip.lets_chess.xiangqi": "\u00a77Pieza de Xiangqi",
+  "tooltip.lets_chess.pickup_hint": "\u00a7eAgacharse + Clic derecho mano vac\u00eda\u00a7f para recoger",
+  "tooltip.lets_chess.chessboard_table_baduk": "\u00a77Genera \u00a73Cuadr\u00edcula Baduk\u00a77 al colocar",
+  "tooltip.lets_chess.chessboard_table_flightchess": "\u00a77Genera \u00a73Cuadr\u00edcula Juego de Parch\u00eds\u00a77 al colocar",
+  "tooltip.lets_chess.chessboard_table_xiangqi": "\u00a77Genera \u00a73Cuadr\u00edcula Xiangqi\u00a77 al colocar",
+  "tooltip.lets_chess.dice": "\u00a73N\u00famero aleatorio al colocar",
+  "tooltip.lets_chess.mini_chessboard1": "\u00a72Recoger\u00a77 & \u00a73Colocar\u00a77 piezas r\u00e1pidamente.",
+  "tooltip.lets_chess.mini_chessboard2": "\u00a77Usa una pieza en la cabeza para ver la \u00a7fZona de Trabajo\u00a77.",
+
+  "lets_chess.configuration.title": "\u00a1Config Juguemos al Ajedrez!",
+  "lets_chess.configuration.section.lets_chess.common.toml": "Config General",
+  "lets_chess.configuration.section.lets_chess.common.toml.title": "Config General"
+}

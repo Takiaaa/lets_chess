@@ -2,7 +2,9 @@ package com.takia.lets_chess;
 
 import com.takia.lets_chess.item.ModCreativeModeTabs;
 import com.takia.lets_chess.block.ModBlocks;
+import com.takia.lets_chess.block.entity.ModBlockEntities;
 import com.takia.lets_chess.entity.ModEntities;
+import com.takia.lets_chess.gui.MenuTypes;
 import com.takia.lets_chess.item.ModItems;
 import org.slf4j.Logger;
 
@@ -52,7 +54,9 @@ public class Letschess {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
         ModEntities.register(modEventBus);
+        MenuTypes.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.

@@ -9,6 +9,8 @@
   "advancement.lets_chess.get_piece.desc": "获得一枚棋子。\n走出你的第一步棋吧！潜行空手可拾起棋子。",
   "advancement.lets_chess.get_dice": "好运连连",
   "advancement.lets_chess.get_dice.desc": "获得一枚骰子。\n放置骰子，期待点数，幸运女神会眷顾你的。",
+  "advancement.lets_chess.get_mini_chessboard": "懒人福音",
+  "advancement.lets_chess.get_mini_chessboard.desc": "获得一个小棋盘。\n你已经是个成熟的棋盘了，要学会自己摆棋。",
 
   "item.lets_chess.logo_icon": "图标",
 
@@ -55,6 +57,23 @@
   "block.lets_chess.chessboard_table_baduk": "围棋棋盘台",
   "block.lets_chess.chessboard_table_flightchess": "飞行棋棋盘台",
 
+  "block.lets_chess.mini_chessboard_xiangqi": "象棋小棋盘",
+  "block.lets_chess.mini_chessboard_chess": "国际象棋小棋盘",
+  "block.lets_chess.mini_chessboard_flightchess": "飞行棋小棋盘",
+
+  "container.lets_chess.mini_chessboard_chess.gui_title": "国际象棋",
+  "container.lets_chess.mini_chessboard_xiangqi.gui_title": "中国象棋",
+  "container.lets_chess.mini_chessboard_flightchess.gui_title": "飞行棋",
+
+  "container.lets_chess.mini_chessboard.take_back": "收回区域内棋子",
+  "container.lets_chess.mini_chessboard.arrange": "在区域内摆放棋子",
+
+  "message.lets_chess.arrange_failed_obstacle": "§c摆放失败：棋盘区域内应该留空",
+  "message.lets_chess.arrange_failed_insufficient": "§c摆放失败：物品栏内相应棋子数量不足",
+  "message.lets_chess.arrange_success": "§a摆放成功：棋子已按标准开局摆放",
+  "message.lets_chess.takeback_success": "§a收回成功：区域内的棋子已返还物品栏",
+  "message.lets_chess.takeback_success_partial": "§a收回成功：区域内的棋子已返还物品栏或掉落地上",
+
   "entity.lets_chess.chessboard_entity": "棋盘",
 
   "tooltip.lets_chess.baduk": "§7围棋棋子",
@@ -66,12 +85,10 @@
   "tooltip.lets_chess.chessboard_table_flightchess": "§7放置时生成§3飞行棋棋盘网格",
   "tooltip.lets_chess.chessboard_table_xiangqi": "§7放置时生成§3象棋棋盘网格",
   "tooltip.lets_chess.dice": "§3放置时随机点数",
+  "tooltip.lets_chess.mini_chessboard1": "§7可快捷§2收回棋子§7与§3摆放棋子§7。",
+  "tooltip.lets_chess.mini_chessboard2": "§7头戴任意棋子时，可显示§f工作区域§7。",
 
   "lets_chess.configuration.title": "咱们下棋吧！配置",
   "lets_chess.configuration.section.lets_chess.common.toml": "通用配置",
-  "lets_chess.configuration.section.lets_chess.common.toml.title": "通用配置",
-  "lets_chess.configuration.items": "物品列表",
-  "lets_chess.configuration.logDirtBlock": "Log Dirt Block",
-  "lets_chess.configuration.magicNumberIntroduction": "Magic Number Text",
-  "lets_chess.configuration.magicNumber": "Magic Number"
+  "lets_chess.configuration.section.lets_chess.common.toml.title": "通用配置"
 }

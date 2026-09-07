@@ -1,0 +1,35 @@
+{
+  "parent": "lets_chess:root",
+  "criteria": {
+    "has_mini_chessboard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#lets_chess:mini_chessboard"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "title": {
+      "translate": "advancement.lets_chess.get_mini_chessboard"
+    },
+    "description": {
+      "translate": "advancement.lets_chess.get_mini_chessboard.desc"
+    },
+    "icon": {
+      "id": "lets_chess:mini_chessboard_chess",
+      "count": 1
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_mini_chessboard"
+    ]
+  ]
+}

@@ -65,6 +65,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.CHESSBOARD_TABLE_XIANGQI);
                         output.accept(ModBlocks.CHESSBOARD_TABLE_BADUK);
                         output.accept(ModBlocks.CHESSBOARD_TABLE_FLIGHTCHESS);
+                        // 小棋盘
+                        output.accept(ModBlocks.MINI_CHESSBOARD_XIANGQI);
+                        output.accept(ModBlocks.MINI_CHESSBOARD_CHESS);
+                        output.accept(ModBlocks.MINI_CHESSBOARD_FLIGHTCHESS);
                     }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

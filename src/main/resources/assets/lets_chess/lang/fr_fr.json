@@ -1,0 +1,94 @@
+{
+  "itemGroup.lets_chess_tab": "Jouons aux \u00c9checs !",
+
+  "advancement.lets_chess.root": "Jouons aux \u00c9checs !",
+  "advancement.lets_chess.root.desc": "Fabriquez des pi\u00e8ces et des \u00e9chiquiers, et jouez avec vos amis !",
+  "advancement.lets_chess.get_table": "Sur l'\u00c9chiquier",
+  "advancement.lets_chess.get_table.desc": "Obtenez une table d'\u00e9chiquier.\nPlacez-la pour revendiquer votre territoire.",
+  "advancement.lets_chess.get_piece": "Un Coup D\u00e9cisif",
+  "advancement.lets_chess.get_piece.desc": "Obtenez une pi\u00e8ce d'\u00e9checs.\nFaites votre premier pas ! Accroupissez-vous + clic droit \u00e0 main vide pour ramasser.",
+  "advancement.lets_chess.get_dice": "Chanceux",
+  "advancement.lets_chess.get_dice.desc": "Obtenez un d\u00e9.\nEsp\u00e9rez le meilleur, la chance vous sourira !",
+  "advancement.lets_chess.get_mini_chessboard": "B\u00e9n\u00e9diction du Paresseux",
+  "advancement.lets_chess.get_mini_chessboard.desc": "Obtenez un mini \u00e9chiquier.\nVous \u00eates un \u00e9chiquier mature, apprenez \u00e0 placer les pi\u00e8ces vous-m\u00eame !",
+
+  "item.lets_chess.logo_icon": "Ic\u00f4ne",
+
+  "block.lets_chess.flightchess_blue": "Pion Bleu",
+  "block.lets_chess.flightchess_green": "Pion Vert",
+  "block.lets_chess.flightchess_red": "Pion Rouge",
+  "block.lets_chess.flightchess_yellow": "Pion Jaune",
+
+  "block.lets_chess.xiangqi_red_general": "G\u00e9n\u00e9ral Rouge",
+  "block.lets_chess.xiangqi_red_advisor": "Conseiller Rouge",
+  "block.lets_chess.xiangqi_red_bishop": "\u00c9l\u00e9phant Rouge",
+  "block.lets_chess.xiangqi_red_horse": "Cheval Rouge",
+  "block.lets_chess.xiangqi_red_chariot": "Char Rouge",
+  "block.lets_chess.xiangqi_red_cannon": "Canon Rouge",
+  "block.lets_chess.xiangqi_red_soldier": "Soldat Rouge",
+  "block.lets_chess.xiangqi_black_general": "G\u00e9n\u00e9ral Noir",
+  "block.lets_chess.xiangqi_black_advisor": "Conseiller Noir",
+  "block.lets_chess.xiangqi_black_bishop": "\u00c9l\u00e9phant Noir",
+  "block.lets_chess.xiangqi_black_horse": "Cheval Noir",
+  "block.lets_chess.xiangqi_black_chariot": "Char Noir",
+  "block.lets_chess.xiangqi_black_cannon": "Canon Noir",
+  "block.lets_chess.xiangqi_black_soldier": "Soldat Noir",
+
+  "block.lets_chess.dice_white": "D\u00e9 Blanc",
+  "block.lets_chess.dice_black": "D\u00e9 Noir",
+
+  "block.lets_chess.pieces_white": "Pi\u00e8ces Blanches",
+  "block.lets_chess.pieces_black": "Pi\u00e8ces Noires",
+
+  "block.lets_chess.chess_white_king": "Roi Blanc",
+  "block.lets_chess.chess_white_queen": "Reine Blanche",
+  "block.lets_chess.chess_white_bishop": "Fou Blanc",
+  "block.lets_chess.chess_white_knight": "Cavalier Blanc",
+  "block.lets_chess.chess_white_rook": "Tour Blanche",
+  "block.lets_chess.chess_white_pawn": "Pion Blanc",
+  "block.lets_chess.chess_black_king": "Roi Noir",
+  "block.lets_chess.chess_black_queen": "Reine Noire",
+  "block.lets_chess.chess_black_bishop": "Fou Noir",
+  "block.lets_chess.chess_black_knight": "Cavalier Noir",
+  "block.lets_chess.chess_black_rook": "Tour Noire",
+  "block.lets_chess.chess_black_pawn": "Pion Noir",
+
+  "block.lets_chess.chessboard_table_xiangqi": "Table Xiangqi",
+  "block.lets_chess.chessboard_table_baduk": "Table Baduk",
+  "block.lets_chess.chessboard_table_flightchess": "Table Jeu de Parcours",
+
+  "block.lets_chess.mini_chessboard_xiangqi": "Mini \u00c9chiquier Xiangqi",
+  "block.lets_chess.mini_chessboard_chess": "Mini \u00c9chiquier",
+  "block.lets_chess.mini_chessboard_flightchess": "Mini \u00c9chiquier Jeu de Parcours",
+
+  "container.lets_chess.mini_chessboard_chess.gui_title": "\u00c9checs",
+  "container.lets_chess.mini_chessboard_xiangqi.gui_title": "Xiangqi",
+  "container.lets_chess.mini_chessboard_flightchess.gui_title": "Jeu de Parcours",
+
+  "container.lets_chess.mini_chessboard.take_back": "Reprendre les Pi\u00e8ces",
+  "container.lets_chess.mini_chessboard.arrange": "Placer les Pi\u00e8ces",
+
+  "message.lets_chess.arrange_failed_obstacle": "\u00a7c\u00c9chec : la zone doit \u00eatre vide",
+  "message.lets_chess.arrange_failed_insufficient": "\u00a7c\u00c9chec : pas assez de pi\u00e8ces dans l'inventaire",
+  "message.lets_chess.arrange_success": "\u00a7aSucc\u00e8s : pi\u00e8ces plac\u00e9es selon l'ouverture standard",
+  "message.lets_chess.takeback_success": "\u00a7aSucc\u00e8s : toutes les pi\u00e8ces ont \u00e9t\u00e9 rendues \u00e0 l'inventaire",
+  "message.lets_chess.takeback_success_partial": "\u00a7aSucc\u00e8s : pi\u00e8ces rendues \u00e0 l'inventaire ou tomb\u00e9es au sol",
+
+  "entity.lets_chess.chessboard_entity": "\u00c9chiquier",
+
+  "tooltip.lets_chess.baduk": "\u00a77Pi\u00e8ce de Baduk",
+  "tooltip.lets_chess.chess": "\u00a77Pi\u00e8ce d'\u00c9checs",
+  "tooltip.lets_chess.flightchess": "\u00a77Pi\u00e8ce de Jeu de Parcours",
+  "tooltip.lets_chess.xiangqi": "\u00a77Pi\u00e8ce de Xiangqi",
+  "tooltip.lets_chess.pickup_hint": "\u00a7eAccroupi + Clic droit main vide\u00a7f pour ramasser",
+  "tooltip.lets_chess.chessboard_table_baduk": "\u00a77G\u00e9n\u00e8re \u00a73Grille Baduk\u00a77 au placement",
+  "tooltip.lets_chess.chessboard_table_flightchess": "\u00a77G\u00e9n\u00e8re \u00a73Grille Jeu de Parcours\u00a77 au placement",
+  "tooltip.lets_chess.chessboard_table_xiangqi": "\u00a77G\u00e9n\u00e8re \u00a73Grille Xiangqi\u00a77 au placement",
+  "tooltip.lets_chess.dice": "\u00a73Nombre al\u00e9atoire au placement",
+  "tooltip.lets_chess.mini_chessboard1": "\u00a72Reprendre\u00a77 & \u00a73Placer\u00a77 les pi\u00e8ces rapidement.",
+  "tooltip.lets_chess.mini_chessboard2": "\u00a77Portez une pi\u00e8ce sur la t\u00eate pour voir la \u00a7fZone de Travail\u00a77.",
+
+  "lets_chess.configuration.title": "Config Jouons aux \u00c9checs !",
+  "lets_chess.configuration.section.lets_chess.common.toml": "Config G\u00e9n\u00e9rale",
+  "lets_chess.configuration.section.lets_chess.common.toml.title": "Config G\u00e9n\u00e9rale"
+}

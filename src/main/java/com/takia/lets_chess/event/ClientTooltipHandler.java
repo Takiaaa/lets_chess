@@ -39,6 +39,9 @@ public class ClientTooltipHandler {
             event.getToolTip().add(Component.translatable("tooltip.lets_chess.chessboard_table_baduk"));
         } else if (block instanceof FlightchessTableBlock) {
             event.getToolTip().add(Component.translatable("tooltip.lets_chess.chessboard_table_flightchess"));
+        } else if (block instanceof MiniChessboardBlock) {
+            event.getToolTip().add(Component.translatable("tooltip.lets_chess.mini_chessboard1"));
+            event.getToolTip().add(Component.translatable("tooltip.lets_chess.mini_chessboard2"));
         } else {
             return;
         }

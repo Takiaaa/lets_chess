@@ -38,3 +38,8 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+### Temp/Log Files ###
+*.log
+*.tmp
+build_error.txt

@@ -1,0 +1,98 @@
+{
+  "itemGroup.lets_chess_tab": "來下棋吧！",
+
+  "advancement.lets_chess.root": "來下棋吧！",
+  "advancement.lets_chess.root.desc": "製作棋子和棋盤，與好友一起博弈！",
+  "advancement.lets_chess.get_table": "棋盤之上",
+  "advancement.lets_chess.get_table.desc": "獲得一個棋盤臺。\n放置棋盤臺，踏進屬於你的一方領地。",
+  "advancement.lets_chess.get_piece": "落子無悔",
+  "advancement.lets_chess.get_piece.desc": "獲得一枚棋子。\n走出你的第一步棋吧！潛行空手可拾起棋子。",
+  "advancement.lets_chess.get_dice": "好運連連",
+  "advancement.lets_chess.get_dice.desc": "獲得一枚骰子。\n放置骰子，期待點數，幸運女神會眷顧你的。",
+  "advancement.lets_chess.get_mini_chessboard": "懶人福音",
+  "advancement.lets_chess.get_mini_chessboard.desc": "獲得一個小棋盤。\n你已經是個成熟的棋盤了，要學會自己擺棋。",
+
+  "item.lets_chess.logo_icon": "圖示",
+
+  "block.lets_chess.flightchess_blue": "藍色飛行棋",
+  "block.lets_chess.flightchess_green": "綠色飛行棋",
+  "block.lets_chess.flightchess_red": "紅色飛行棋",
+  "block.lets_chess.flightchess_yellow": "黃色飛行棋",
+
+  "block.lets_chess.xiangqi_red_general": "紅帥",
+  "block.lets_chess.xiangqi_red_advisor": "紅仕",
+  "block.lets_chess.xiangqi_red_bishop": "紅相",
+  "block.lets_chess.xiangqi_red_horse": "紅馬",
+  "block.lets_chess.xiangqi_red_chariot": "紅車",
+  "block.lets_chess.xiangqi_red_cannon": "紅炮",
+  "block.lets_chess.xiangqi_red_soldier": "紅兵",
+  "block.lets_chess.xiangqi_black_general": "黑將",
+  "block.lets_chess.xiangqi_black_advisor": "黑士",
+  "block.lets_chess.xiangqi_black_bishop": "黑象",
+  "block.lets_chess.xiangqi_black_horse": "黑馬",
+  "block.lets_chess.xiangqi_black_chariot": "黑車",
+  "block.lets_chess.xiangqi_black_cannon": "黑砲",
+  "block.lets_chess.xiangqi_black_soldier": "黑卒",
+
+  "block.lets_chess.dice_white": "白色骰子",
+  "block.lets_chess.dice_black": "黑色骰子",
+
+  "block.lets_chess.pieces_white": "白色棋子",
+  "block.lets_chess.pieces_black": "黑色棋子",
+
+  "block.lets_chess.chess_white_king": "白方國王",
+  "block.lets_chess.chess_white_queen": "白方皇后",
+  "block.lets_chess.chess_white_bishop": "白方主教",
+  "block.lets_chess.chess_white_knight": "白方騎士",
+  "block.lets_chess.chess_white_rook": "白方城堡",
+  "block.lets_chess.chess_white_pawn": "白方士兵",
+  "block.lets_chess.chess_black_king": "黑方國王",
+  "block.lets_chess.chess_black_queen": "黑方皇后",
+  "block.lets_chess.chess_black_bishop": "黑方主教",
+  "block.lets_chess.chess_black_knight": "黑方騎士",
+  "block.lets_chess.chess_black_rook": "黑方城堡",
+  "block.lets_chess.chess_black_pawn": "黑方士兵",
+
+  "block.lets_chess.chessboard_table_xiangqi": "象棋棋盤臺",
+  "block.lets_chess.chessboard_table_baduk": "圍棋棋盤臺",
+  "block.lets_chess.chessboard_table_flightchess": "飛行棋棋盤臺",
+
+  "block.lets_chess.mini_chessboard_xiangqi": "象棋小棋盤",
+  "block.lets_chess.mini_chessboard_chess": "國際象棋小棋盤",
+  "block.lets_chess.mini_chessboard_flightchess": "飛行棋小棋盤",
+
+  "container.lets_chess.mini_chessboard_chess.gui_title": "國際象棋",
+  "container.lets_chess.mini_chessboard_xiangqi.gui_title": "中國象棋",
+  "container.lets_chess.mini_chessboard_flightchess.gui_title": "飛行棋",
+
+  "container.lets_chess.mini_chessboard.take_back": "收回區域內棋子",
+  "container.lets_chess.mini_chessboard.arrange": "在區域內擺放棋子",
+
+  "message.lets_chess.arrange_failed_obstacle": "§c擺放失敗：棋盤區域內應該留空",
+  "message.lets_chess.arrange_failed_insufficient": "§c擺放失敗：物品欄內相應棋子數量不足",
+  "message.lets_chess.arrange_success": "§a擺放成功：棋子已按標準開局擺放",
+  "message.lets_chess.takeback_success": "§a收回成功：區域內的棋子已返還物品欄",
+  "message.lets_chess.takeback_success_partial": "§a收回成功：區域內的棋子已返還物品欄或掉落地上",
+
+  "entity.lets_chess.chessboard_entity": "棋盤",
+
+  "tooltip.lets_chess.baduk": "§7圍棋棋子",
+  "tooltip.lets_chess.chess": "§7國際象棋棋子",
+  "tooltip.lets_chess.flightchess": "§7飛行棋棋子",
+  "tooltip.lets_chess.xiangqi": "§7中國象棋棋子",
+  "tooltip.lets_chess.pickup_hint": "§e潛行+空手右鍵§f可拿起",
+  "tooltip.lets_chess.chessboard_table_baduk": "§7放置時生成§3圍棋棋盤網格",
+  "tooltip.lets_chess.chessboard_table_flightchess": "§7放置時生成§3飛行棋棋盤網格",
+  "tooltip.lets_chess.chessboard_table_xiangqi": "§7放置時生成§3象棋棋盤網格",
+  "tooltip.lets_chess.dice": "§3放置時隨機點數",
+  "tooltip.lets_chess.mini_chessboard1": "§7可快捷§2收回棋子§7與§3擺放棋子§7。",
+  "tooltip.lets_chess.mini_chessboard2": "§7頭戴任意棋子時，可顯示§f工作區域§7。",
+
+  "lets_chess.configuration.title": "來下棋吧！設定",
+  "lets_chess.configuration.section.lets_chess.common.toml": "通用設定",
+  "lets_chess.configuration.section.lets_chess.common.toml.title": "通用設定",
+  "lets_chess.configuration.items": "物品列表",
+  "lets_chess.configuration.logDirtBlock": "Log Dirt Block",
+  "lets_chess.configuration.magicNumberIntroduction": "Magic Number Text",
+  "lets_chess.configuration.magicNumber": "Magic Number"
+}
