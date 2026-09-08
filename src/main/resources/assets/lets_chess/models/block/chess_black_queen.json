@@ -11,9 +11,9 @@
 	"elements": [
 		{
 			"name": "hat",
-			"from": [5.75, 11, 5.75],
-			"to": [10.25, 13, 10.25],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"from": [5.75, 13, 5.75],
+			"to": [10.25, 15, 10.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
 			"faces": {
 				"north": {"uv": [5, 5, 9.5, 7], "texture": "#color"},
 				"east": {"uv": [5, 5, 9.5, 7], "texture": "#color"},
@@ -24,9 +24,9 @@
 		},
 		{
 			"name": "hat",
-			"from": [5.25, 10, 5.25],
-			"to": [10.75, 11, 10.75],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"from": [5.25, 12, 5.25],
+			"to": [10.75, 13, 10.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
 			"faces": {
 				"north": {"uv": [5, 5, 10.5, 6], "texture": "#color"},
 				"east": {"uv": [5, 5, 10.5, 6], "texture": "#color"},
@@ -37,10 +37,24 @@
 			}
 		},
 		{
+			"name": "hat",
+			"from": [6, 10, 6],
+			"to": [10, 11, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5, 8]},
+			"faces": {
+				"north": {"uv": [5, 5, 9, 6], "texture": "#color"},
+				"east": {"uv": [5, 5, 9, 6], "texture": "#color"},
+				"south": {"uv": [5, 5, 9, 6], "texture": "#color"},
+				"west": {"uv": [5, 5, 9, 6], "texture": "#color"},
+				"up": {"uv": [5, 5, 9, 9], "texture": "#color"},
+				"down": {"uv": [5, 5, 9, 9], "texture": "#color"}
+			}
+		},
+		{
 			"name": "cross",
-			"from": [7.5, 13, 7.5],
-			"to": [8.5, 14, 8.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"from": [7.5, 15, 7.5],
+			"to": [8.5, 16, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
 			"faces": {
 				"north": {"uv": [0, 15, 1, 16], "texture": "#color"},
 				"east": {"uv": [0, 15, 1, 16], "texture": "#color"},
@@ -52,13 +66,13 @@
 		{
 			"name": "pillar",
 			"from": [6.5, 7, 6.5],
-			"to": [9.5, 10, 9.5],
+			"to": [9.5, 12, 9.5],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
-				"north": {"uv": [6, 4, 9, 11], "texture": "#color"},
-				"east": {"uv": [6, 4, 9, 11], "texture": "#color"},
-				"south": {"uv": [6, 4, 9, 11], "texture": "#color"},
-				"west": {"uv": [6, 4, 9, 11], "texture": "#color"}
+				"north": {"uv": [6, 4, 9, 9], "texture": "#color"},
+				"east": {"uv": [6, 4, 9, 9], "texture": "#color"},
+				"south": {"uv": [6, 4, 9, 9], "texture": "#color"},
+				"west": {"uv": [6, 4, 9, 9], "texture": "#color"}
 			}
 		},
 		{
@@ -134,10 +148,10 @@
 		},
 		{
 			"name": "hat",
-			"from": [10.45, 13.2, 10.45],
-			"to": [5.55, 11.2, 5.55],
+			"from": [10.45, 15.2, 10.45],
+			"to": [5.55, 13.2, 5.55],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#color2"},
 				"east": {"uv": [0, 0, 1, 1], "texture": "#color2"},
@@ -148,10 +162,25 @@
 		},
 		{
 			"name": "hat",
-			"from": [10.95, 11.2, 10.95],
-			"to": [5.05, 9.8, 5.05],
+			"from": [10.95, 13.2, 10.95],
+			"to": [5.05, 11.8, 5.05],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#color2"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#color2"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#color2"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#color2"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#color2"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#color2"}
+			}
+		},
+		{
+			"name": "hat",
+			"from": [10.2, 11.2, 10.2],
+			"to": [5.8, 9.8, 5.8],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4.5, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#color2"},
 				"east": {"uv": [0, 0, 1, 1], "texture": "#color2"},
@@ -163,10 +192,10 @@
 		},
 		{
 			"name": "cross",
-			"from": [8.7, 14.2, 8.7],
-			"to": [7.3, 13.2, 7.3],
+			"from": [8.7, 16.2, 8.7],
+			"to": [7.3, 15.2, 7.3],
 			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 1, 1], "texture": "#color2"},
 				"east": {"uv": [0, 0, 1, 1], "texture": "#color2"},
@@ -186,6 +215,19 @@
 				"east": {"uv": [0, 0, 1, 1], "texture": "#color2"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#color2"},
 				"west": {"uv": [0, 0, 1, 1], "texture": "#color2"}
+			}
+		},
+		{
+			"name": "pillar",
+			"from": [9.7, 11.8, 9.7],
+			"to": [6.3, 11.2, 6.3],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8.6, 8]},
+			"faces": {
+				"north": {"uv": [0, 0.85542, 1, 1], "texture": "#color2"},
+				"east": {"uv": [0, 0.85542, 1, 1], "texture": "#color2"},
+				"south": {"uv": [0, 0.85542, 1, 1], "texture": "#color2"},
+				"west": {"uv": [0, 0.85542, 1, 1], "texture": "#color2"}
 			}
 		},
 		{
@@ -306,35 +348,35 @@
 			"origin": [0, 11.25, 0],
 			"scope": 0,
 			"color": 0,
-			"children": [0, 1]
+			"children": [0, 1, 2]
 		},
 		{
 			"name": "cross",
 			"origin": [0, 14.5, 0],
 			"scope": 0,
 			"color": 1,
-			"children": [2]
+			"children": [3]
 		},
 		{
 			"name": "pillar",
 			"origin": [0, 6.5, 0],
 			"scope": 0,
 			"color": 2,
-			"children": [3]
+			"children": [4]
 		},
 		{
 			"name": "slope",
 			"origin": [0, 4.23205, 0],
 			"scope": 0,
 			"color": 3,
-			"children": [4, 5, 6, 7]
+			"children": [5, 6, 7, 8]
 		},
 		{
 			"name": "pedestal",
 			"origin": [0, 1.25, 0],
 			"scope": 0,
 			"color": 4,
-			"children": [8, 9]
+			"children": [9, 10]
 		},
 		{
 			"name": "glow",
@@ -349,7 +391,7 @@
 					"scope": 0,
 					"color": 0,
 					"shade": false,
-					"children": [10, 11]
+					"children": [11, 12, 13]
 				},
 				{
 					"name": "cross",
@@ -357,7 +399,7 @@
 					"scope": 0,
 					"color": 1,
 					"shade": false,
-					"children": [12]
+					"children": [14]
 				},
 				{
 					"name": "pillar",
@@ -365,7 +407,7 @@
 					"scope": 0,
 					"color": 2,
 					"shade": false,
-					"children": [13]
+					"children": [15, 16]
 				},
 				{
 					"name": "slope",
@@ -373,7 +415,7 @@
 					"scope": 0,
 					"color": 3,
 					"shade": false,
-					"children": [14, 15, 16, 17]
+					"children": [17, 18, 19, 20]
 				},
 				{
 					"name": "pedestal",
@@ -381,7 +423,7 @@
 					"scope": 0,
 					"color": 4,
 					"shade": false,
-					"children": [18, 19]
+					"children": [21, 22]
 				}
 			]
 		}

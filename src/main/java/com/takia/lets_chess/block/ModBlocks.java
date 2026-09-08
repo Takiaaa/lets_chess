@@ -123,20 +123,20 @@ public class ModBlocks {
                     .instrument(NoteBlockInstrument.HARP)));
 
     // 白方国际象棋
-    public static final DeferredBlock<ChessBlock> CHESS_WHITE_KING = registerChessPieceBlocks("chess_white_king", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_WHITE_QUEEN = registerChessPieceBlocks("chess_white_queen", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_WHITE_BISHOP = registerChessPieceBlocks("chess_white_bishop", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_WHITE_KNIGHT = registerChessPieceBlocks("chess_white_knight", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_WHITE_ROOK = registerChessPieceBlocks("chess_white_rook", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_WHITE_PAWN = registerChessPieceBlocks("chess_white_pawn", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE)));
+    public static final DeferredBlock<ChessBlock> CHESS_WHITE_KING = registerChessPieceBlocks("chess_white_king", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE), 16));
+    public static final DeferredBlock<ChessBlock> CHESS_WHITE_QUEEN = registerChessPieceBlocks("chess_white_queen", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE), 16));
+    public static final DeferredBlock<ChessBlock> CHESS_WHITE_BISHOP = registerChessPieceBlocks("chess_white_bishop", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE), 14));
+    public static final DeferredBlock<ChessBlock> CHESS_WHITE_KNIGHT = registerChessPieceBlocks("chess_white_knight", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE), 12));
+    public static final DeferredBlock<ChessBlock> CHESS_WHITE_ROOK = registerChessPieceBlocks("chess_white_rook", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE), 12));
+    public static final DeferredBlock<ChessBlock> CHESS_WHITE_PAWN = registerChessPieceBlocks("chess_white_pawn", () -> new ChessBlock(baseProperties(Blocks.WHITE_CONCRETE), 12));
 
     // 黑方国际象棋
-    public static final DeferredBlock<ChessBlock> CHESS_BLACK_KING = registerChessPieceBlocks("chess_black_king", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_BLACK_QUEEN = registerChessPieceBlocks("chess_black_queen", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_BLACK_BISHOP = registerChessPieceBlocks("chess_black_bishop", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_BLACK_KNIGHT = registerChessPieceBlocks("chess_black_knight", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_BLACK_ROOK = registerChessPieceBlocks("chess_black_rook", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE)));
-    public static final DeferredBlock<ChessBlock> CHESS_BLACK_PAWN = registerChessPieceBlocks("chess_black_pawn", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE)));
+    public static final DeferredBlock<ChessBlock> CHESS_BLACK_KING = registerChessPieceBlocks("chess_black_king", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE), 16));
+    public static final DeferredBlock<ChessBlock> CHESS_BLACK_QUEEN = registerChessPieceBlocks("chess_black_queen", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE), 16));
+    public static final DeferredBlock<ChessBlock> CHESS_BLACK_BISHOP = registerChessPieceBlocks("chess_black_bishop", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE), 14));
+    public static final DeferredBlock<ChessBlock> CHESS_BLACK_KNIGHT = registerChessPieceBlocks("chess_black_knight", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE), 12));
+    public static final DeferredBlock<ChessBlock> CHESS_BLACK_ROOK = registerChessPieceBlocks("chess_black_rook", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE), 12));
+    public static final DeferredBlock<ChessBlock> CHESS_BLACK_PAWN = registerChessPieceBlocks("chess_black_pawn", () -> new ChessBlock(baseProperties(Blocks.BLACK_CONCRETE), 12));
 
     private static BlockBehaviour.Properties baseProperties(Block concreteBlock) {
         return BlockBehaviour.Properties.of()
