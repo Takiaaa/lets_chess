@@ -1,1 +1,21 @@
-﻿﻿{"type": "minecraft:crafting_shaped", "pattern": ["###", "# #", "###"], "key": {"#": {"item": "minecraft:spruce_planks"}}, "result": {"id": "lets_chess:mini_chessboard_chess", "count": 1}}
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "BXW"
+    ],
+    "key": {
+        "X": {
+            "item": "lets_chess:mini_chessboard_xiangqi"
+        },
+        "B": {
+            "item": "minecraft:black_dye"
+        },
+        "W": {
+            "item": "minecraft:white_dye"
+        }
+    },
+    "result": {
+        "id": "lets_chess:mini_chessboard_chess"
+    }
+}

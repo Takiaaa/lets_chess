@@ -1,12 +1,12 @@
-{
+﻿{
     "type": "minecraft:crafting_shapeless",
     "category": "misc",
     "ingredients": [
         {
-            "item": "lets_chess:chessboard_table_baduk"
+            "item": "lets_chess:mini_chessboard_flightchess"
         }
     ],
     "result": {
-        "id": "lets_chess:chessboard_table_xiangqi"
+        "id": "lets_chess:mini_chessboard_xiangqi"
     }
 }
