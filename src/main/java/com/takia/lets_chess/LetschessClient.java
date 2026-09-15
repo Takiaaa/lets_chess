@@ -44,6 +44,11 @@ public class LetschessClient {
             net.minecraft.client.renderer.ItemBlockRenderTypes.setRenderLayer(ModBlocks.MINI_CHESSBOARD_FLIGHTCHESS.get(), RenderType.cutout());
         });
 
+        if (Letschess.isCreateLoaded()) {
+            net.createmod.ponder.foundation.PonderIndex.addPlugin(
+                    new com.takia.lets_chess.compat.create.LetschessPonderPlugin());
+        }
+
         Letschess.LOGGER.info("HELLO FROM CLIENT SETUP");
         Letschess.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }

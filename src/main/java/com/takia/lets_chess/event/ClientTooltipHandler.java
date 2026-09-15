@@ -17,6 +17,7 @@ public class ClientTooltipHandler {
 
         if (block instanceof DiceBlock) {
             event.getToolTip().add(Component.translatable("tooltip.lets_chess.dice"));
+            event.getToolTip().add(Component.translatable("tooltip.lets_chess.dice2"));
             event.getToolTip().add(Component.translatable("tooltip.lets_chess.pickup_hint"));
             return;
         }

@@ -85,8 +85,11 @@
   "tooltip.lets_chess.chessboard_table_flightchess": "\u00a77Genera \u00a73Cuadr\u00edcula Juego de Parch\u00eds\u00a77 al colocar",
   "tooltip.lets_chess.chessboard_table_xiangqi": "\u00a77Genera \u00a73Cuadr\u00edcula Xiangqi\u00a77 al colocar",
   "tooltip.lets_chess.dice": "\u00a73N\u00famero aleatorio al colocar",
+  "tooltip.lets_chess.dice2": "\u00a73Clic derecho con mano vac\u00eda para relanzar",
   "tooltip.lets_chess.mini_chessboard1": "\u00a72Recoger\u00a77 & \u00a73Colocar\u00a77 piezas r\u00e1pidamente.",
   "tooltip.lets_chess.mini_chessboard2": "\u00a77Usa una pieza en la cabeza para ver la \u00a7fZona de Trabajo\u00a77.",
+
+  "lets_chess.display_source.dice_face": "Mostrar Cara del Dado",
 
   "lets_chess.configuration.title": "\u00a1Config Juguemos al Ajedrez!",
   "lets_chess.configuration.section.lets_chess.common.toml": "Config General",

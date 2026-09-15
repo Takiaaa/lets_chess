@@ -27,6 +27,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -59,6 +60,10 @@ public class Letschess {
         MenuTypes.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
+        if (isCreateLoaded()) {
+            com.takia.lets_chess.compat.create.CreateCompat.register(modEventBus);
+        }
+
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (Letschess) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -74,6 +79,10 @@ public class Letschess {
     private void commonSetup(FMLCommonSetupEvent event) {
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
+
+        if (isCreateLoaded()) {
+            com.takia.lets_chess.compat.create.CreateCompat.associateBlocks();
+        }
 
         if (Config.LOG_DIRT_BLOCK.getAsBoolean()) {
             LOGGER.info("DIRT BLOCK >> {}", BuiltInRegistries.BLOCK.getKey(Blocks.DIRT));
@@ -93,5 +102,9 @@ public class Letschess {
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+    }
+
+    public static boolean isCreateLoaded() {
+        return ModList.get().isLoaded("create");
     }
 }

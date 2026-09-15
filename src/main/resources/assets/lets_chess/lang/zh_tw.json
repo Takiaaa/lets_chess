@@ -85,8 +85,11 @@
   "tooltip.lets_chess.chessboard_table_flightchess": "§7放置時生成§3飛行棋棋盤網格",
   "tooltip.lets_chess.chessboard_table_xiangqi": "§7放置時生成§3象棋棋盤網格",
   "tooltip.lets_chess.dice": "§3放置時隨機點數",
+  "tooltip.lets_chess.dice2": "§3空手右鍵時重擲點數",
   "tooltip.lets_chess.mini_chessboard1": "§7可快捷§2收回棋子§7與§3擺放棋子§7。",
   "tooltip.lets_chess.mini_chessboard2": "§7頭戴任意棋子時，可顯示§f工作區域§7。",
+
+  "lets_chess.display_source.dice_face": "顯示骰子點數",
 
   "lets_chess.configuration.title": "來下棋吧！設定",
   "lets_chess.configuration.section.lets_chess.common.toml": "通用設定",

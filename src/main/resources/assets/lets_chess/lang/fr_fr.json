@@ -85,8 +85,11 @@
   "tooltip.lets_chess.chessboard_table_flightchess": "\u00a77G\u00e9n\u00e8re \u00a73Grille Jeu de Parcours\u00a77 au placement",
   "tooltip.lets_chess.chessboard_table_xiangqi": "\u00a77G\u00e9n\u00e8re \u00a73Grille Xiangqi\u00a77 au placement",
   "tooltip.lets_chess.dice": "\u00a73Nombre al\u00e9atoire au placement",
+  "tooltip.lets_chess.dice2": "\u00a73Clic droit \u00e0 main vide pour relancer",
   "tooltip.lets_chess.mini_chessboard1": "\u00a72Reprendre\u00a77 & \u00a73Placer\u00a77 les pi\u00e8ces rapidement.",
   "tooltip.lets_chess.mini_chessboard2": "\u00a77Portez une pi\u00e8ce sur la t\u00eate pour voir la \u00a7fZone de Travail\u00a77.",
+
+  "lets_chess.display_source.dice_face": "Afficher la Face du D\u00e9",
 
   "lets_chess.configuration.title": "Config Jouons aux \u00c9checs !",
   "lets_chess.configuration.section.lets_chess.common.toml": "Config G\u00e9n\u00e9rale",

@@ -80,13 +80,16 @@
   "tooltip.lets_chess.chess": "§7国际象棋棋子",
   "tooltip.lets_chess.flightchess": "§7飞行棋棋子",
   "tooltip.lets_chess.xiangqi": "§7中国象棋棋子",
+  "tooltip.lets_chess.dice": "§3放置时随机点数",
+  "tooltip.lets_chess.dice2": "§3空手右键时重掷点数",
   "tooltip.lets_chess.pickup_hint": "§e潜行+空手右键§f可拿起",
   "tooltip.lets_chess.chessboard_table_baduk": "§7放置时生成§3围棋棋盘网格",
   "tooltip.lets_chess.chessboard_table_flightchess": "§7放置时生成§3飞行棋棋盘网格",
   "tooltip.lets_chess.chessboard_table_xiangqi": "§7放置时生成§3象棋棋盘网格",
-  "tooltip.lets_chess.dice": "§3放置时随机点数",
   "tooltip.lets_chess.mini_chessboard1": "§7可快捷§2收回棋子§7与§3摆放棋子§7。",
   "tooltip.lets_chess.mini_chessboard2": "§7头戴任意棋子时，可显示§f工作区域§7。",
+
+  "lets_chess.display_source.dice_face": "显示骰子点数",
 
   "lets_chess.configuration.title": "咱们下棋吧！配置",
   "lets_chess.configuration.section.lets_chess.common.toml": "通用配置",

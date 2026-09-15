@@ -1,6 +1,7 @@
 package com.takia.lets_chess.block.entity;
 
 import com.takia.lets_chess.Letschess;
+import com.takia.lets_chess.block.DiceBlockEntity;
 import com.takia.lets_chess.block.ModBlocks;
 import com.takia.lets_chess.block.MiniChessboardBlockEntity;
 import net.minecraft.core.registries.Registries;
@@ -18,6 +19,12 @@ public class ModBlockEntities {
             ModBlocks.MINI_CHESSBOARD_XIANGQI.get(),
             ModBlocks.MINI_CHESSBOARD_CHESS.get(),
             ModBlocks.MINI_CHESSBOARD_FLIGHTCHESS.get()
+        ).build(null));
+
+    public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<DiceBlockEntity>> DICE = BLOCK_ENTITIES.register("dice",
+        () -> BlockEntityType.Builder.of(DiceBlockEntity::new,
+            ModBlocks.DICE_WHITE.get(),
+            ModBlocks.DICE_BLACK.get()
         ).build(null));
 
     public static void register(IEventBus eventBus) {

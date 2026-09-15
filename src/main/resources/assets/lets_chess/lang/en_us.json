@@ -85,8 +85,11 @@
   "tooltip.lets_chess.chessboard_table_flightchess": "§7Generates §3Flight Chess Chessboard Grid §7on Placement",
   "tooltip.lets_chess.chessboard_table_xiangqi": "§7Generates §3Xiangqi Chessboard Grid §7on Placement",
   "tooltip.lets_chess.dice": "§3Random Number on Placement",
+  "tooltip.lets_chess.dice2": "§3Right-click with Empty Hand to Reroll",
   "tooltip.lets_chess.mini_chessboard1": "§7Quickly §2Take Back§7 & §3Arrange§7 pieces.",
   "tooltip.lets_chess.mini_chessboard2": "§7Wear any piece on head to view the §fWork Area§7.",
+
+  "lets_chess.display_source.dice_face": "Display Dice Face",
 
   "lets_chess.configuration.title": "Let's Chess! Configs",
   "lets_chess.configuration.section.lets_chess.common.toml": "General Configs",

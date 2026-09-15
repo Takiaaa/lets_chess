@@ -1,10 +1,16 @@
 {
   "variants": {
-    "face=1": { "model": "lets_chess:block/dice_white_1" },
-    "face=2": { "model": "lets_chess:block/dice_white_2" },
-    "face=3": { "model": "lets_chess:block/dice_white_3" },
-    "face=4": { "model": "lets_chess:block/dice_white_4" },
-    "face=5": { "model": "lets_chess:block/dice_white_5" },
-    "face=6": { "model": "lets_chess:block/dice_white_6" }
+    "face=1,rolling=false": { "model": "lets_chess:block/dice_white_1" },
+    "face=2,rolling=false": { "model": "lets_chess:block/dice_white_2" },
+    "face=3,rolling=false": { "model": "lets_chess:block/dice_white_3" },
+    "face=4,rolling=false": { "model": "lets_chess:block/dice_white_4" },
+    "face=5,rolling=false": { "model": "lets_chess:block/dice_white_5" },
+    "face=6,rolling=false": { "model": "lets_chess:block/dice_white_6" },
+    "face=1,rolling=true": { "model": "lets_chess:block/dice_white_1" },
+    "face=2,rolling=true": { "model": "lets_chess:block/dice_white_2" },
+    "face=3,rolling=true": { "model": "lets_chess:block/dice_white_3" },
+    "face=4,rolling=true": { "model": "lets_chess:block/dice_white_4" },
+    "face=5,rolling=true": { "model": "lets_chess:block/dice_white_5" },
+    "face=6,rolling=true": { "model": "lets_chess:block/dice_white_6" }
   }
 }
