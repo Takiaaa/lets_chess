@@ -43,3 +43,6 @@ repo/
 *.log
 *.tmp
 build_error.txt
+
+### Aseprite Source Files ###
+*.aseprite
